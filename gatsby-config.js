@@ -17,6 +17,16 @@ module.exports = {
           }
         ],
       },
-    }
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Canvas Paint`,
+        short_name: `Paint`,
+        start_url: `/`,
+        display: `standalone`,
+      },
+    },
+    `gatsby-plugin-offline`
   ]
 }
