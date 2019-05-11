@@ -11,6 +11,7 @@ module.exports = {
       description: `Noodling around with HTML Canvas`,
     }, 
   plugins: [
+    `gatsby-plugin-sass`, 
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
