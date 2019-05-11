@@ -3,6 +3,12 @@
  *
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
+module.exports = {
+  siteMetadata: {
+    title: `Paint your heart out`,
+    description: `How noostalgic <3`,
+  },
+}
 
 module.exports = {
   plugins: [
@@ -22,11 +28,12 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Canvas Paint`,
+        icon: `src/images/icon.png`,
         short_name: `Paint`,
         start_url: `/`,
         display: `standalone`,
       },
     },
-    `gatsby-plugin-offline`
+    `gatsby-plugin-remove-serviceworker`
   ]
 }

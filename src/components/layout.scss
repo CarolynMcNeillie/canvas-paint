@@ -1,9 +1,9 @@
-@import "setup";
-@import "variables";
+@import "../styles/setup";
+@import "../styles/variables";
 
 html {
   padding: 50px;
-  background-color: $desktop;
+  background-color: tomato;
   font-family: 'VT323', monospace;
 }
 
