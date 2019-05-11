@@ -1,8 +1,20 @@
+@import "setup";
+@import "variables";
+
 html {
-  background-color: red;
+  padding: 50px;
+  background-color: $desktop;
+  font-family: 'VT323', monospace;
 }
 
-div {
-  background: red;
-  color: white;
+.window {
+  border: 3px outset $system;
+  background: #fff;
+  padding: 0;
+}
+
+canvas {
+  width: 800px;
+  height: 600px;
+  border: 1px solid black;
 }
