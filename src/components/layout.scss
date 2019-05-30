@@ -3,18 +3,20 @@
 
 html {
   padding: 50px;
-  background-color: tomato;
+  background-color: $desktop;
   font-family: 'VT323', monospace;
 }
 
 .window {
   border: 3px outset $system;
+  max-width: 800px;
+  margin: 0 auto;
   background: #fff;
   padding: 0;
 }
 
 canvas {
-  width: 800px;
-  height: 600px;
+  width: calc(100%);
+  min-height: 600px;
   border: 1px solid black;
 }

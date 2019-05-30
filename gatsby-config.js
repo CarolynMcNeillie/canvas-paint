@@ -3,14 +3,12 @@
  *
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
+
 module.exports = {
   siteMetadata: {
     title: `Paint your heart out`,
     description: `How noostalgic <3`,
   },
-}
-
-module.exports = {
   plugins: [
     `gatsby-plugin-sass`,
     {
